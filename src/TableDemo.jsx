@@ -27,7 +27,7 @@ export default function TableDemo() {
   });
 
   return (
-    <table style={{ borderCollapse: "collapse", width: "100%" }}>
+    <table style={{ borderCollapse: "collapse", width: "auto", margin: "0 auto" }}>
       <thead>
         {table.getHeaderGroups().map(headerGroup => (
           <tr key={headerGroup.id}>
